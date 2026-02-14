@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
+    background: linear-gradient(to right, #1086ed, #010101);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .login-box button:hover {
-    background: #f5f7f8;
+    background: #108fcf;
 }
 
 #message {
