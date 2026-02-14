@@ -8,13 +8,11 @@ function login() {
     let correctPass = "1234";
 
     if (username === correctUser && password === correctPass) {
-        document.getElementById("message").style.color = "green";
-        document.getElementById("message").innerText = "Login Successful ✅";
-
-        // Redirect (optional)
-        // window.location.href = "home.html";
+        // Redirect to home page
+        window.location.href = "home.html";
 
     } else {
+
         document.getElementById("message").style.color = "red";
         document.getElementById("message").innerText = "Invalid Username or Password ❌";
     }
