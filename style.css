@@ -1,48 +1,48 @@
- body {
-     margin: 0;
-     font-family: Arial, sans-serif;
-     background-color: #f4f6f8;
- }
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
- header {
-     background-color: #8ba4e9;
-     color: white;
-     padding: 20px;
-     text-align: center;
- }
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+}
 
- nav {
-     background-color: #111827;
-     padding: 10px;
-     text-align: center;
- }
+.login-box h2 {
+    margin-bottom: 20px;
+}
 
- nav a {
-     color: white;
-     margin: 0 15px;
-     text-decoration: none;
-     font-weight: bold;
- }
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
 
- nav a:hover {
-     color: #38bdf8;
- }
+.login-box button {
+    width: 95%;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
- .container {
-     padding: 30px;
- }
+.login-box button:hover {
+    background: #008cff;
+}
 
- .card {
-     background: white;
-     padding: 20px;
-     margin-bottom: 20px;
-     border-radius: 8px;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
- }
-
- footer {
-     background-color: #111827;
-     color: white;
-     text-align: center;
-     padding: 15px;
- }
+#message {
+    margin-top: 10px;
+    color: red;
+}
