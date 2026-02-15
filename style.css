@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #1086ed, #010101);
+    background: linear-gradient(to right, #4facfe, #00f2fe);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .login-box h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .login-box input {
@@ -39,10 +39,20 @@ body {
 }
 
 .login-box button:hover {
-    background: #108fcf;
+    background: #008cff;
 }
 
-#message {
+.login-box a {
+    color: #008cff;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+#message,
+#msg {
     margin-top: 10px;
     color: red;
 }
